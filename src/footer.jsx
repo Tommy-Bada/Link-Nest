@@ -1,4 +1,4 @@
-import zuri from './assets/zuri.svg'
+import zuri from './assets/Zuri.svg'
 import i4g from './assets/I4G.svg'
 
 function Footer(){
