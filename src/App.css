@@ -1,0 +1,89 @@
+#root {
+  text-align: center;
+}
+
+/* Top Icon Styling */
+.extra-button{
+  margin-left: 50%;
+  top:40px;
+  position: relative;
+}
+
+/*Header Styling */
+header{
+  margin-bottom: 56px;
+  margin-top: 10px;
+}
+header>div>img{
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#twitter{
+  font-size: 20px;
+  font-weight: 700;
+}
+#slack{
+  display: none;
+}
+
+/* Link Section Styling */
+button{
+  width: 90%;
+  background: #EAECF0;
+  border: none;
+  padding: 24px 0;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+}
+button:hover{
+  cursor: pointer;
+  color: #EAECF0;
+  background: #101828;
+}
+a{
+  text-decoration: none;
+}
+.link-logos{
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+.link-logos>div{
+  margin-right: 24px;
+}
+
+/* Footer Styling */
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 60px auto 0 auto;
+  font-size: 16px;
+  border-top: solid #EAECF0 1px;
+  padding: 16px 0;
+}
+
+@media (max-width: 768px){
+  .extra-button{
+    margin-left: 90%;
+    top:20px;
+  }
+  #twitter{
+    font-size: 18px;
+  }
+  button{
+    width: 98%;
+    font-size: 14px;
+  }
+
+  footer{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
