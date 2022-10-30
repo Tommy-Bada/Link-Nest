@@ -5,14 +5,14 @@ function BackButton(){
     if(screen.width >= 768){
         return(
             <div className="extra-button">
-                <a href="#"> <img src={backButton} /></a>
+                <img src={backButton} />
             </div>
         )
     }
     else{
         return(
             <div className="extra-button">
-                <a href="#"><img src={menuButton} /></a>
+                <img src={menuButton} />
             </div>
         )
     }
