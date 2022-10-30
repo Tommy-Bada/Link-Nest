@@ -29,24 +29,23 @@ header>div>img{
 }
 
 /* Link Section Styling */
-button{
+a{
+  text-decoration: none;
+  display: block;
   width: 90%;
   background: #EAECF0;
   border: none;
   padding: 24px 0;
-  margin-bottom: 24px;
+  margin: 12px auto;
   border-radius: 10px;
   font-size: 18px;
   font-weight: 500;
   color: #101828;
 }
-button:hover{
+a:hover{
   cursor: pointer;
   color: #EAECF0;
   background: #101828;
-}
-a{
-  text-decoration: none;
 }
 .link-logos{
   display: flex;
@@ -77,7 +76,7 @@ footer{
   #twitter{
     font-size: 18px;
   }
-  button{
+  a{
     width: 98%;
     font-size: 14px;
   }
