@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #root {
   text-align: center;
 }
@@ -28,11 +33,11 @@ header>div>img{
   display: none;
 }
 
-/* Link Section Styling */
+/* Link Component Styling */
 a{
   text-decoration: none;
   display: block;
-  width: 90%;
+  width: 80%;
   background: #EAECF0;
   border: none;
   padding: 24px 0;
@@ -56,12 +61,71 @@ a:hover{
   margin-right: 24px;
 }
 
-/* Footer Styling */
+/* Form Styling */
+form{
+  text-align: left;
+  width: 50%;
+  margin: 92px auto;
+}
+#form-title{
+  font-size: 36px;
+  font-weight: 600;
+  color: #101828;
+}
+#form-subtitle{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 48px;
+  color: #475467;
+}
+#name-inputs{
+  display: flex;
+  justify-content: space-between;
+}
+label{
+  font-size: 14px;
+  color: #344054;
+
+}
+#first_name, #last_name, #email, #message, #btn__submit{
+  padding: 10px 14px;
+  font-size: 16px;
+  margin-top: 6px;
+  margin-bottom: 24px;
+  color: #667085;
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+#first_name, #last_name{
+  min-width: 325px;
+}
+#email, #message{
+  width: 100%;
+}
+textarea{
+  font-family: inter;
+  height: 132px;
+}
+#data-confirmation{
+  margin-right: 12px;
+}
+#btn__submit{
+  width: 100%;
+  background: #1570EF;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+/* Footer Component Styling */
 footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
+  width: 90%;
   margin: 60px auto 0 auto;
   font-size: 16px;
   border-top: solid #EAECF0 1px;
@@ -80,9 +144,29 @@ footer{
     width: 98%;
     font-size: 14px;
   }
+  form{
+    text-align: left;
+    width: 90%;
+    margin: 64px 16px;
+  }
+  #form-subtitle{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+  #name-inputs{
+    display: block;
+  }
+  #first_name, #last_name{
+    min-width: 100%;
+  }
 
   footer{
     flex-direction: column;
     align-items: flex-start;
+  }
+  footer>p{
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 }
