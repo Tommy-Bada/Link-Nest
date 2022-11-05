@@ -1,5 +1,6 @@
 import slack from './assets/slack.svg'
 import github from './assets/github.svg'
+import { Link, NavLink } from 'react-router-dom'
 
 function Links(){
     return(
@@ -10,6 +11,7 @@ function Links(){
         <a href="https://books.zuri.team/python-for-beginners?ref_id=BadaScript" id="book__python" >Get Amazing Books for Python</a>
         <a href="https://background.zuri.team/" id="pitch">Check Coders Background</a>
         <a href="https://books.zuri.team/design-rules" id="book__design" >Get Zuri Design Books</a>
+        <Link to="/contact" id='contact' >Contact Bada</Link>
         <div className='link-logos'>
             <div><img src={slack} /></div>
             <div><img src={github} /></div>
