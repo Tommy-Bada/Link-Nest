@@ -1,6 +1,5 @@
 import Header from './header'
 import Links from './links'
-import './App.css'
 import Footer from './footer'
 import BackButton from './menuButton'
 
